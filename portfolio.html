@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jobin Jose | AI/ML Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+      font-family: 'Poppins', sans-serif;
+    }
+    body {
+      background: linear-gradient(to right, #0f0f0f, #1c1c1c);
+      color: white;
+    }
+    header {
+      height: 100vh;
+      background: url('https://images.unsplash.com/photo-1542831371-d531d36971e6') center/cover no-repeat;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: #fff;
+      animation: fadeIn 2s ease-in-out;
+    }
+    header h1 {
+      font-size: 3em;
+      animation: slideInDown 1s ease-in-out;
+    }
+    header p {
+      font-size: 1.2em;
+      animation: slideInUp 1s ease-in-out;
+    }
+    nav {
+      position: sticky;
+      top: 0;
+      background-color: #111;
+      display: flex;
+      justify-content: center;
+      padding: 15px 0;
+      z-index: 999;
+      border-bottom: 2px solid #00ffd5;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 20px;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #00ffd5;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+      animation: fadeIn 2s ease-in-out;
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #00ffd5;
+      font-size: 2.5rem;
+    }
+    .animated-box {
+      background-color: #1f1f1f;
+      margin-bottom: 20px;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0, 255, 255, 0.2);
+      transition: transform 0.3s ease;
+    }
+    .animated-box:hover {
+      transform: translateY(-10px);
+    }
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+      gap: 15px;
+      text-align: center;
+    }
+    .skill-item {
+      background: #2d2d2d;
+      padding: 10px;
+      border-radius: 8px;
+      transition: transform 0.3s ease;
+    }
+    .skill-item:hover {
+      transform: scale(1.1);
+      background: #00ffd5;
+      color: black;
+    }
+    footer {
+      background: #111;
+      text-align: center;
+      padding: 30px;
+      font-size: 0.9em;
+      color: #888;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes slideInDown {
+      from { opacity: 0; transform: translateY(-100px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes slideInUp {
+      from { opacity: 0; transform: translateY(100px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Jobin Jose</h1>
+    <p>AI/ML Engineer | Data Scientist </p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#education">Education</a>
+    <a href="#experience">Experience</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#certifications">Certifications</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="animated-box">
+      <p>B.Tech graduate in Computer Science with expertise in AI/ML, Data Science, and Web Development. I am passionate about building intelligent systems using Python, TensorFlow, LangChain, Streamlit, and FastAPI. My strong foundation in algorithms, databases, and statistics helps me create efficient AI solutions.</p>
+    </div>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <div class="animated-box">
+      <h3>B.Tech in Computer Science Engineering</h3>
+      <p>Adi Shankara Institute of Engineering and Technology (2020 - 20224)</p>
+    </div>
+    <div class="animated-box">
+      <h3>12 th </h3>
+      <p>Bhramanandhodayam Higher Secondary School (2018-2020)</p>
+    </div>
+    <div class="animated-box">
+        <h3>10 th </h3>
+        <p>St.Patricks Academy (2018)</p>
+      </div>
+  </section>
+
+  <section id="experience">
+    <h2>Experience</h2>
+    <div class="animated-box">
+      <h3>Hysteresis.in -Bengaluru (April 2025 -present)</h3>
+      <p>Gen AI Developer</p>
+    </div>
+    <div class="animated-box">
+      <h3>NTTF Bengaluru (Jan 2025 - April 2025)</h3>
+      <p>AI/ML Trainee</p>
+    </div>
+</section>
+
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-item">Python</div>
+      <div class="skill-item">TensorFlow</div>
+      <div class="skill-item">Scikit-learn</div>
+      <div class="skill-item">FastAPI</div>
+      <div class="skill-item">LangChain</div>
+      <div class="skill-item">Streamlit</div>
+      <div class="skill-item">SQL</div>
+      <div class="skill-item">Power BI</div>
+      <div class="skill-item">Google PaLM</div>
+      <div class="skill-item">Git & GitHub</div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="animated-box">
+      <h3>Autonomous AI Research Assistant</h3>
+      <p>Built a LangChain-based AI research tool using multi-agent collaboration, RAG, and citation-based memory. Integrated with Google PaLM and Streamlit.</p>
+    </div>
+    <div class="animated-box">
+      <h3>ATS Resume Expert</h3>
+      <p>Created a Gemini AI chatbot in Streamlit to evaluate resumes against job descriptions with skill matching and ATS scoring.</p>
+    </div>
+    <div class="animated-box">
+      <h3>Gemini Chatbot with Streamlit</h3>
+      <p>A chat-like interface using Google Gemini and Streamlit for interactive Q&A.</p>
+    </div>
+    <div class="animated-box">
+      <h3>Auto Dimming Headlights</h3>
+      <p>Implemented a CNN-based computer vision system to adjust vehicle headlights automatically based on traffic images.</p>
+    </div>
+  </section>
+
+  <section id="certifications">
+    <h2>Certifications</h2>
+    <div class="animated-box">
+      <ul>
+        <li>Data Science and AI - Entri Elevate (NSDC & Illinois Tech Certified)</li>
+        <li>AI-900: Azure AI Fundamentals</li>
+        <li>Power BI - Simplilearn</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <div class="animated-box">
+      <p>Email: jobinjose.ai@gmail.com</p>
+      <p>GitHub: <a href="https://github.com/AIwithJobin" style="color: #00ffd5;">AIwithJobin</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/jobin--jose" style="color: #00ffd5;">Jobin Jose</a></p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Jobin Jose. All rights reserved.</p>
+  </footer>
+</body>
+</html>
